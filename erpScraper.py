@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 import os
 
-KOBOFORMID = str(os.environ.get("GNCERPKOBOID"))
+GNCERPKOBOID = str(os.environ.get("GNCERPKOBOID"))
 
-DataURL = "https://eu.kobotoolbox.org/api/v2/assets/"+KOBOFORMID+"/export-settings/es9pvn4L6wPbZVR3wawTjB5/data.xlsx"
+DataURL = "https://eu.kobotoolbox.org/api/v2/assets/"+GNCERPKOBOID+"/export-settings/es9pvn4L6wPbZVR3wawTjB5/data.xlsx"
 print(DataURL)
 
 KoboData = pd.read_excel(DataURL)
