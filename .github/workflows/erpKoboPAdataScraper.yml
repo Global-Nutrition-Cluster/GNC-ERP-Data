@@ -34,7 +34,7 @@ jobs:
       - name: commit files
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Data successfully updated
+          commit_message: Data successfully fetched and updated
           push_options: '--force'
           
       - name: push changes
