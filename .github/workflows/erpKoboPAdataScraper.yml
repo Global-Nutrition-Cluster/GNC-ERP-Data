@@ -4,7 +4,7 @@ name: GNC ERP Kobo Data scraper
 
 on:
   schedule:
-    - cron: '0 8 * * *' # everyday 0 8 * * MON, every 10 min */10 * * * *
+    - cron: '* /5 * * * *' # everyday 0 8 * * MON, every 10 min */10 * * * * -- 0 8 * * *
 
 # permissions: read-all|write-all
 
